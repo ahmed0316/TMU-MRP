@@ -1,0 +1,27 @@
+HouseholdFinancialVulnerability/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── external/
+│
+├── notebooks/
+│
+├── src/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── data_loader.py
+│   ├── preprocessing.py
+│   ├── feature_engineering.py
+│   ├── models.py
+│   ├── evaluation.py
+│   ├── visualization.py
+│   └── utils.py
+│
+├── outputs/
+│   ├── figures/
+│   ├── tables/
+│   └── models/
+│
+├── requirements.txt
+└── main.py
