@@ -1,0 +1,102 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions",Universe,"Variable List"
+"Survey of Financial Security (SFS), composition of assets and debts held by all family units, by net worth quintiles",11100021,205-0003,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1110002101",1;10;11,"ARCHIVED -  a cube publicly available but no longer being updated",Occasional,1999-01-01,2012-01-01,4,,
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Correction Notes","Dimension Definitions"
+1,Geography,2,,
+2,"Assets and debts",,,
+3,"Net worth quintiles",,,
+4,Characteristics,,,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Correction Notes","Member Geo Attribute Keys","Member Definitions"
+1,Canada,[11124],1,,,,,,
+1,Atlantic,[1],2,1,,,,,
+1,"Newfoundland and Labrador",[10],3,2,,,,,
+1,"Prince Edward Island",[11],4,2,,,,,
+1,"Nova Scotia",[12],5,2,,,,,
+1,"New Brunswick",[13],6,2,,,,,
+1,Quebec,[24],7,1,,,,,
+1,Ontario,[35],8,1,,,,,
+1,Prairies,[4],9,1,,,,,
+1,Manitoba,[46],10,9,,,,,
+1,Saskatchewan,[47],11,9,,,,,
+1,Alberta,[48],12,9,,,,,
+1,"British Columbia",[59],13,1,,,,,
+2,"Total assets",,1,,,,,,
+2,"Private pension assets",,2,1,,3,,,
+2,"Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Locked-in Retirement Accounts (LIRAs) and other",,3,2,,4,,,
+2,"Employer-sponsored Registered Pension Plans (EPPs)",,4,2,,,,,
+2,"Financial assets, non pension",,5,1,,,,,
+2,"Deposits in financial institutions",,6,5,,5,,,
+2,"Mutual funds, investment funds  and income trusts",,7,5,,,,,
+2,Stocks,,8,5,,,,,
+2,"Bonds (saving and other)",,9,5,,,,,
+2,"Tax Free Saving Accounts (TFSA)",,10,5,,,,,
+2,"Other financial assets",,11,5,,6,,,
+2,"Non-financial assets",,12,1,,,,,
+2,"Principal residence",,13,12,,,,,
+2,"Other real estate",,14,12,,,,,
+2,Vehicles,,15,12,,,,,
+2,"Other non-financial assets",,16,12,,7,,,
+2,"Equity in business",,17,1,,,,,
+2,"Total debts",,18,,,,,,
+2,Mortgages,,19,18,,,,,
+2,"Principal residence",,20,19,,,,,
+2,"Other real estate",,21,19,,,,,
+2,"Line of credit",,22,18,,,,,
+2,"Credit card and installment debt",,23,18,,8,,,
+2,"Student loans",,24,18,,,,,
+2,"Vehicle loans",,25,18,,,,,
+2,"Other debt",,26,18,,,,,
+2,"Net Worth (assets less debts)",,27,,,9,,,
+3,"Total, all net worth quintiles",,1,,,,,,
+3,"Lowest net worth quintile",,2,1,,,,,
+3,"Second net worth quintile",,3,1,,,,,
+3,"Middle net worth quintile",,4,1,,,,,
+3,"Fourth net worth quintile",,5,1,,,,,
+3,"Highest net worth quintile",,6,1,,,,,
+4,Dollars,,1,,,,,,
+4,"Percentage of total assets or total debts",,2,,,,,,
+4,"Number of family units",,3,,,,,,
+4,"Percentage of family units holding asset or debt",,4,,,,,,
+4,"Median amount for family units holding asset or debt",,5,,,,,,
+4,"Average amount for family units holding asset or debt",,6,,,,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published.",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+2620,"Survey of Financial Security"
+
+"Subject Code","Subject Name"
+11,"Income, pensions, spending and wealth"
+
+"Note ID",Note
+1,"Family units are comprised of economic families (a group of two or more persons who live in the same dwelling and are related to each other by blood, marriage, common law or adoption) and unattached individuals (a person living either alone or with others to whom he or she is unrelated)."
+2,"Due to sample size in 2005, provincial data is not available for Newfoundland and Labrador, Prince Edward Island, Nova Scotia, New Brunswick, Manitoba, Saskatchewan and Alberta"
+3,"Excludes public plans administered or sponsored by governments: Old Age Security (OAS) including the Guaranteed Income Supplement (GIS) and the Spouse's Allowance (SPA), as well as the Canada/Quebec Pension Plans (C/QPP)."
+4,"Other includes Deferred Profit Sharing Plans (DPSPs), annuities and other miscellaneous pension assets."
+5,"In 2012, this category includes Treasury Bills."
+6,"Includes Registered Education Savings Plans (RESPs), treasury bills (1999 and 2005 only) mortgage-backed securities, money held in trust, money owed to the respondent and other miscellaneous financial assets, including shares of privately held companies."
+7,"The value of the contents of the respondent's principal residence, valuables and collectibles, copyrights and patents, et cetera."
+8,"Includes major credit cards and retail store cards, gasoline station cards, et cetera. Installment debt is the total amount owing on deferred payment or installment plans where the purchased item is to be paid for over a period of time."
+9,"For net worth, the median and average have been calculated based on all applicable family units, not just those with net worth greater or less than $0. The number and percentage of family units with net worth, however, are those with net worth greater or less than $0."
+10,"The Employer Pension Plan are valued on termination basis.   "
+11,"Table 205-0003 has been replaced by table 205-0004."
+
+"Dimension ID","Member ID","Attribute Key",Title,Label,"Long Label",Value
+
+
